@@ -1,0 +1,9 @@
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.deps.json
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.csproj.CoreCompileInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.AssemblyInfoInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.AssemblyInfo.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Repository\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Repository.csprojAssemblyReference.cache

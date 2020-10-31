@@ -1,0 +1,9 @@
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Util.deps.json
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Util.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Util.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.csprojAssemblyReference.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.csproj.CoreCompileInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.AssemblyInfoInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.AssemblyInfo.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Util\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Util.pdb

@@ -1,0 +1,8 @@
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.deps.json
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.csproj.CoreCompileInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.AssemblyInfoInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.AssemblyInfo.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.pdb
