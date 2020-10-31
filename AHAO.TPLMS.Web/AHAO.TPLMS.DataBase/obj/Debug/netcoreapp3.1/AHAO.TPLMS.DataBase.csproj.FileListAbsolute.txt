@@ -1,0 +1,5 @@
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.DataBase\bin\Debug\netcoreapp3.1\AHAO.TPLMS.DataBase.deps.json
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.DataBase\bin\Debug\netcoreapp3.1\AHAO.TPLMS.DataBase.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.DataBase\obj\Debug\netcoreapp3.1\AHAO.TPLMS.DataBase.csprojAssemblyReference.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.DataBase\obj\Debug\netcoreapp3.1\AHAO.TPLMS.DataBase.AssemblyInfoInputs.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.DataBase\obj\Debug\netcoreapp3.1\AHAO.TPLMS.DataBase.AssemblyInfo.cs
