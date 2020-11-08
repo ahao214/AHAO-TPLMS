@@ -61,5 +61,7 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.T
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.pdb
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.genruntimeconfig.cache
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\Autofac.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.csproj.CoreCompileInputs.cache
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.MvcApplicationPartsAssemblyInfo.cache
