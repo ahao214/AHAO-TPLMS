@@ -6,3 +6,4 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AH
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.AssemblyInfo.cs
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.dll
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Entitys\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.csprojAssemblyReference.cache
