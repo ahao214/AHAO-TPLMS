@@ -18,6 +18,7 @@
     <ProjectReference Include="..\AHAO.TPLMS.DataBase\AHAO.TPLMS.DataBase.csproj" />
     <ProjectReference Include="..\AHAO.TPLMS.Entitys\AHAO.TPLMS.Entitys.csproj" />
     <ProjectReference Include="..\AHAO.TPLMS.Service\AHAO.TPLMS.Service.csproj" />
+    <ProjectReference Include="..\AHAO.TPLMS.Util\AHAO.TPLMS.Util.csproj" />
   </ItemGroup>
 
   <ItemGroup>

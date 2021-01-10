@@ -20,11 +20,13 @@ namespace AHAO.TPLMS.Util
        /// <summary>
        /// 返回数据
        /// </summary>
-        public object Date { get; set; }
+        public object Data { get; set; }
         /// <summary>
         /// 表示业务操作结果的枚举
         /// </summary>
         publicOperationResultType ResultType { get; set; }
+        public string Id { get; set; }
 
+        public string No { get; set; }
     }
 }
