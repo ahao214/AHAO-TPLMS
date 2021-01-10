@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AHAO.TPLMS.Contract\AHAO.TPLMS.Contract.csproj" />
+    <ProjectReference Include="..\AHAO.TPLMS.DataBase\AHAO.TPLMS.DataBase.csproj" />
+  </ItemGroup>
+
 </Project>

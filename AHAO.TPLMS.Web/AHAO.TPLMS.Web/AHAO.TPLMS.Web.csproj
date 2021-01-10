@@ -20,5 +20,11 @@
     <ProjectReference Include="..\AHAO.TPLMS.Service\AHAO.TPLMS.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 
 </Project>

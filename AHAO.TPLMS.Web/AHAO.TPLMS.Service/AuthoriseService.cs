@@ -2,7 +2,7 @@
 
 namespace AHAO.TPLMS.Service
 {
-    public class Class1
+    public class AuthoriseService
     {
     }
 }
