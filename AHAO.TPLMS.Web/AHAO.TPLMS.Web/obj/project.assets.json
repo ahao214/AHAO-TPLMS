@@ -5762,7 +5762,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Thinkpad\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5775,7 +5775,7 @@
       "outputPath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
@@ -5792,6 +5792,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.DataBase\\AHAO.TPLMS.DataBase.csproj": {
               "projectPath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.DataBase\\AHAO.TPLMS.DataBase.csproj"
@@ -5816,6 +5817,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Autofac": {
             "target": "Package",
@@ -5846,6 +5848,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.12, 3.1.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5854,7 +5866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,4 +5,5 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\A
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.AssemblyInfo.cs
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.dll
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.csproj.CoreCompileInputs.cache
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.csprojAssemblyReference.cache

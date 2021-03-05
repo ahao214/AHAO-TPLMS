@@ -1,6 +1,5 @@
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\appsettings.json
-F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Web.exe
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Web.deps.json
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Web.runtimeconfig.json
@@ -67,3 +66,16 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.T
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.MvcApplicationPartsAssemblyInfo.cache
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Service.dll
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Service.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.RazorAssemblyInfo.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.RazorAssemblyInfo.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Web.Views.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Web.Views.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Util.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Util.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.TagHelpers.input.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.TagHelpers.output.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.RazorCoreGenerate.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\Razor\Login.cshtml.g.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.RazorTargetAssemblyInfo.cs
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.Views.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\AHAO.TPLMS.Web.styles.css

@@ -37,7 +37,7 @@ namespace AHAO.TPLMS.Web
             });
             //services.AddControllers();
             //services.AddDbContext<TPLMSDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("TPLMSDbContext")));
-            services.AddDbContext<TPLMSDbContext>(options=>options.UseSqlServer("server=.\\sqlexpress;database=TPLMS;uid=sa;pwd=hao@chen214", b => b.MigrationsAssembly("AHAO.TPLMS.Web")));
+            services.AddDbContext<TPLMSDbContext>(options=>options.UseSqlServer("server=LAPTOP-3HE8JVHO\\MSSQLSERVER02;database=TPLMS;uid=sa;pwd=hao@chen214", b => b.MigrationsAssembly("AHAO.TPLMS.Web")));
             services.AddMvc();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             return RegisterAutofac(services);   //×¢²áAutofac

@@ -12,7 +12,7 @@ namespace AHAO.TPLMS.Contract
         T FindSingle(Expression<Func<T, bool>> exp = null);
         bool IsExist(Expression<Func<T, bool>> exp);
         IQueryable<T> Find(Expression<Func<T, bool>> exp=null);
-        IQueryable<T> Find(int pageindex = 1, int pagesize = 10, Expression<Func<T, bool>> exp);
+        IQueryable<T> Find(int pageindex = 1, int pagesize = 10, Expression<Func<T, bool>> exp=null);
         int GetCount(Expression<Func<T, bool>> exp=null);
         void Add(T entity);
         void BatchAdd(T[] entities);

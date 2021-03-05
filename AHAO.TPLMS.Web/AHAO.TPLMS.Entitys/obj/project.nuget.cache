@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QXVFPckBGsutGFBIKEDJdIetoKDzJ+VbFycFEfqe6T68Rx3Bqe7qkZPR7BzmYxaJmFk0gPtxGxuA5LOuNXuHTQ==",
+  "dgSpecHash": "7KAx+PXDyqu6maGxANypWAYjXdjA6vYyZi3Q8JMSjmimZN5isu0aXgY++sgph61kPzoEBdfU7WiF5PxehvMYlQ==",
   "success": true,
   "projectFilePath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Entitys\\AHAO.TPLMS.Entitys.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Thinkpad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

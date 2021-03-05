@@ -24,7 +24,7 @@ namespace AHAO.TPLMS.Util
         /// <summary>
         /// 表示业务操作结果的枚举
         /// </summary>
-        publicOperationResultType ResultType { get; set; }
+        //publicOperationResultType ResultType { get; set; }
         public string Id { get; set; }
 
         public string No { get; set; }

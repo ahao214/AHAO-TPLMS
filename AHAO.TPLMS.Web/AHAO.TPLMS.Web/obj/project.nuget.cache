@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sIdCWFPXjWCTVYKqasKaDBReswMocIawwwHJXPC1tyafop3KwDkhlt8n9bg07t2xwY+fEW8HFP4W2WQ3cUKZSg==",
+  "dgSpecHash": "kb+lSGz0z48e+BvzaW/CKyw/rHHP+FqSR2mYvnvWgvctKcABsLZOChtJ/BKkq/DO1zezte+fHm+8DR+nWSoHng==",
   "success": true,
   "projectFilePath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Web\\AHAO.TPLMS.Web.csproj",
   "expectedPackageFiles": [
@@ -104,7 +104,9 @@
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Thinkpad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Thinkpad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
   ],
   "logs": []
 }
