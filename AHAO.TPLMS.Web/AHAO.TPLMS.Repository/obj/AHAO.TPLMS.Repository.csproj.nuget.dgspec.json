@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Entitys\\AHAO.TPLMS.Entitys.csproj": {
+                "projectPath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Entitys\\AHAO.TPLMS.Entitys.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1493,6 +1493,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "AHAO.TPLMS.Entitys": "1.0.0",
           "System.Data.SqlClient": "4.8.2"
         },
         "compile": {

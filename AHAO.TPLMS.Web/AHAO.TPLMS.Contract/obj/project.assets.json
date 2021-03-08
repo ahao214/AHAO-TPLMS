@@ -130,6 +130,16 @@
             "rid": "win"
           }
         }
+      },
+      "AHAO.TPLMS.Entitys/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AHAO.TPLMS.Entitys.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AHAO.TPLMS.Entitys.dll": {}
+        }
       }
     }
   },
@@ -443,10 +453,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AHAO.TPLMS.Entitys/1.0.0": {
+      "type": "project",
+      "path": "../AHAO.TPLMS.Entitys/AHAO.TPLMS.Entitys.csproj",
+      "msbuildProject": "../AHAO.TPLMS.Entitys/AHAO.TPLMS.Entitys.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AHAO.TPLMS.Entitys >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -482,7 +498,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Entitys\\AHAO.TPLMS.Entitys.csproj": {
+              "projectPath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Entitys\\AHAO.TPLMS.Entitys.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
