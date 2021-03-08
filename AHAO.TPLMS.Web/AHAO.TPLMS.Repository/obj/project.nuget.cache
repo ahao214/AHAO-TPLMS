@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KLzeruiKWhPCoUc5evb0V6Iu2wFymBrL+VKDMaWybeLlHvE+PyeWWf6C0mnjh/h8ubc3cdenZrQeenX8xRla4g==",
+  "dgSpecHash": "b1YoAew3EpaMMmkDTuSfqdgGeyiysDcwjjxFGMG037B7ZR4RHjdaVeh0NJiC4yByn/V1dM6OVraVWYAvelNF9g==",
   "success": true,
   "projectFilePath": "F:\\MyProgramm\\TPLMS\\AHAO.TPLMS.Web\\AHAO.TPLMS.Repository\\AHAO.TPLMS.Repository.csproj",
   "expectedPackageFiles": [
@@ -102,8 +102,7 @@
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Thinkpad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Thinkpad\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
