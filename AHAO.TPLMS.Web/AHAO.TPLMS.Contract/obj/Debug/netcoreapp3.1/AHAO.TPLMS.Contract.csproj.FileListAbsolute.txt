@@ -7,3 +7,6 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\A
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.pdb
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.csproj.CoreCompileInputs.cache
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.csprojAssemblyReference.cache
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.dll
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\bin\Debug\netcoreapp3.1\AHAO.TPLMS.Entitys.pdb
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Contract\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Contract.csproj.CopyComplete

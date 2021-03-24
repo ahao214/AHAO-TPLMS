@@ -78,4 +78,4 @@ F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.T
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\Razor\Login.cshtml.g.cs
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.RazorTargetAssemblyInfo.cs
 F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\AHAO.TPLMS.Web.Views.pdb
-F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\AHAO.TPLMS.Web.styles.css
+F:\MyProgramm\TPLMS\AHAO.TPLMS.Web\AHAO.TPLMS.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
