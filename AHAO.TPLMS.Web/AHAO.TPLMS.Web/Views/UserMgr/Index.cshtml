@@ -1,0 +1,268 @@
+﻿@model IEnumerable<AHAO.TPLMS.Entitys.User>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+
+
+    <script src="~/js/easyui/jquery.easyui.min.js"></script>
+
+    <link href="~/js/easyui/themes/bootstrap/easyui.css" rel="stylesheet" />
+    <link href="~/js/easyui/themes/icon.css" rel="stylesheet" />
+
+    <script src="~/js/easyui/locale/easyui-lang-zh_CN.js"></script>
+
+    <title>用户信息管理</title>
+</head>
+<body>
+    <script src="~/js/business/usermgr.js"></script>
+
+    <div data-options="region:'center'" style="overflow: hidden;">
+
+        <div id="containter" style="width: 1000px; height: auto; margin: 0px auto;">
+            <!--toolbar-->
+            <div style="margin-bottom:1px;font-weight:bold;">
+                <a href="#" id="add" class="easyui-linkbutton" data-options="iconCls:'icon-add'" style="width:100px; height:30px; background-color:#0993D3;">添加</a>
+                <a href="#" id="del" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" style="width:100px; height:30px; background-color:#0993D3;">删除</a>
+                <a href="#" id="edit" class="easyui-linkbutton" data-options="iconCls:'icon-edit'" style="width:100px; height:30px; background-color:#0993D3;">修改</a>
+                <a href="#" id="reload" class="easyui-linkbutton" data-options="iconCls:'icon-reload'" style="width:100px; height:30px; background-color:#0993D3;">刷新</a>
+                <a href="#" id="assign" class="easyui-linkbutton" style="width:80px; height:30px; background-color:#0993D3;">分配模块</a>
+                <a href="#" id="roleassign" class="easyui-linkbutton" style="width:80px; height:30px; background-color:#0993D3;">分配角色</a>
+
+            </div>
+            <!--panel-->
+            <div data-options="region:'center',split:false" style="height:500px;">
+                <!--表格-->
+                <table id="dgUser"></table>
+            </div>
+            @*<table id="dg" class="easyui-datagrid" style="height:450px;" data-options="method:'post',toolbar: '#tb_search',singleSelect: true">
+                    <thead>
+                        <tr>
+                            <th data-options="field:'Id',width:80,align:'center'">编号</th>
+                            <th data-options="field:'UserId',width:100,align:'center'">帐号</th>
+                            <th data-options="field:'User_BM',width:100,align:'center'">部门</th>
+                            <th data-options="field:'Name',width:100,align:'center'">姓名</th>
+                            <th data-options="field:'Password',width:100,align:'center'">密码</th>
+                            <th data-options="field:'Email',width:100,align:'center'">邮箱</th>
+                            <th data-options="field:'Sex',width:100,align:'center'">性别</th>
+                            <th data-options="field:'Status',width:100,align:'center'">状态</th>
+                            <th data-options="field:'Type',width:100,align:'center'">类型</th>
+                            <th data-options="field:'Mobile',width:100,align:'center'">电话</th>
+                            <th data-options="field:'Address',width:100,align:'center'">地址</th>
+                            <th data-options="field:'CreateTime',width:100,align:'center'">创建时间</th>
+                        </tr>
+                    </thead>
+                </table>*@
+
+
+        </div>
+
+    </div>
+    <!----------------------------右键菜单（暂时未用）---------------------------------------------->
+    <div id="menu" class="easyui-menu" style="width: 120px; display: none">
+        <div onclick="" iconcls="icon-add">
+            增加
+        </div>
+        <div onclick="" iconcls="icon-remove">
+            删除
+        </div>
+        <div onclick="editorMethod();" iconcls="icon-edit">
+            修改
+        </div>
+    </div>
+    <!---------------------------修改用户信息------------------------------------------->
+    <div id="divUpdateUser" class="easyui-dialog" closed="true">
+        <table>
+            <tr>
+                <td><input type="hidden" name="ID" id="IDUpdate" /></td>
+            </tr>
+            <tr>
+                <td> 用户名：</td>
+                <td><input type="text" id="UpdUserId" name="UUserId" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td> 姓名：</td>
+                <td><input type="text" id="UpdName" name="UName" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="Password" id="PwdUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>状态：</td>
+                <td>
+                    <select id="StatusUpdate" name="Status" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">审核拒绝</option>
+                        <option value="1">审核通过</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <select id="SexUpdate" name="Sex" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">男</option>
+                        <option value="1">女</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>类型：</td>
+                <td>
+                    <select id="TypeUpdate" name="Type" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">员工</option>
+                        <option value="1">供应商</option>
+                        <option value="2">客户</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>电话：</td>
+                <td><input type="text" name="Mobile" id="MobileUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>地址：</td>
+                <td><input type="text" name="Address" id="AddressUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>代码：</td>
+                <td><input type="text" name="BizCode" id="BizCodeUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>电子邮件：</td>
+                <td><input type="text" name="Email" id="EmailUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>创建时间：</td>
+                <td><input type="text" name="CreateTime" id="CreateTimeUpdate" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" id="btnUpdate" value="修改" class="btn btn-primary" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!---------------------------添加用户信息------------------------------------------->
+    <div id="divAddUser" class="easyui-dialog" closed="true">
+        <table>
+            <tr>
+                <td> 用户名：</td>
+                <td><input type="text" id="AddUserId" name="AUserId" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td> 姓名：</td>
+                <td><input type="text" id="AddName" name="AName" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" name="Password" id="PwdAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>状态：</td>
+                <td>
+                    <select id="StatusAdd" name="Status" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">审核拒绝</option>
+                        <option value="1">审核通过</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <select id="SexAdd" name="Sex" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">男</option>
+                        <option value="1">女</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>类型：</td>
+                <td>
+                    <select id="TypeAdd" name="Type" class="easyui-combobox" panelHeight='auto'>
+                        <option value="0">员工</option>
+                        <option value="1">供应商</option>
+                        <option value="2">客户</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>电话：</td>
+                <td><input type="text" name="Mobile" id="MobileAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>地址：</td>
+                <td><input type="text" name="Address" id="AddressAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>代码：</td>
+                <td><input type="text" name="BizCode" id="BizCodeAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>电子邮件：</td>
+                <td><input type="text" name="Email" id="EmailAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+                <td>创建时间：</td>
+                <td><input type="text" name="CreateTime" id="CreateTimeAdd" class="form-control input-sm" /></td>
+            </tr>
+            <tr>
+
+                <td colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" id="btnAdd" value="保存" class="btn btn-primary" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="divUserModule" class="easyui-dialog" closed="true" data-options="buttons: '#dlg-buttons-module'">
+        <div data-options="region:'center',split:false" style="height:310px;">
+            <!--表格-->
+            <table id="dgModule"></table>
+        </div>
+
+    </div>
+    <div id="dlg-buttons-module">
+        <input type="submit" id="btnAssign" value="保存" class="btn btn-primary" />
+        <input type="submit" id="btnCancle" value="取消" class="btn btn-info" onclick="afterSetModule()" />
+    </div>
+    <div id="divUserRole" class="easyui-dialog" closed="true" data-options="buttons: '#dlg-buttons'">
+        <div data-options="region:'center',split:false" style="height:310px;">
+            <!--表格-->
+            <table id="dgRole"></table>
+        </div>
+    </div>
+    <div id="dlg-buttons">
+        <input type="submit" id="btnRoleAssign" value="保存" class="btn btn-primary" />
+        <input type="submit" id="btnRoleCancle" value="取消" class="btn btn-info" onclick="afterSetRole()" />
+    </div>
+    <script type="text/javascript">
+        // var editFlag = undefined;
+        $(function () {
+            initable();
+
+            reloaded();
+            updUserInfo();
+            showCreateUserDialog();
+            deleteUser();
+            SetUserLimit();
+        });
+    </script>
+</body>
+</html>
