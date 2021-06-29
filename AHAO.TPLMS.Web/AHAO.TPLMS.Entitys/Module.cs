@@ -20,7 +20,7 @@ namespace AHAO.TPLMS.Entitys
         }
 
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required]
         [StringLength(255)]
         public string CascadeId { get; set; }

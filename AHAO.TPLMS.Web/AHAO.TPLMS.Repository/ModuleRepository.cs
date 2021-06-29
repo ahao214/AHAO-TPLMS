@@ -17,7 +17,7 @@ namespace AHAO.TPLMS.Repository
 
         public IEnumerable<Module> LoadModules(int pageindex, int pagesize)
         {
-            return Context.Module.OrderBy(u => u.id).Skip((pageindex - 1) * pagesize).Take(pagesize);
+            return Context.Module.OrderBy(u => u.Id).Skip((pageindex - 1) * pagesize).Take(pagesize);
         }
 
         public IEnumerable<Module> GetModules(string userName)
@@ -29,7 +29,7 @@ namespace AHAO.TPLMS.Repository
         public bool Delete(string ids)
         {
             var idList = ids.Split(',');
-            var moduleList = Context.Module.Where(m => idList.Contains(m.id.ToString());
+            var moduleList = Context.Module.Where(m => idList.Contains(m.Id.ToString());
             bool result = true;
             Delete(moduleList.ToArray());
             return result;
