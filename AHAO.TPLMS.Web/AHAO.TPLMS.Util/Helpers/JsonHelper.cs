@@ -19,7 +19,7 @@ namespace AHAO.TPLMS.Util.Helpers
             }
         }
 
-        public string Serizlize(object obj)
+        public string Serialize(object obj)
         {
             return JsonConvert.SerializeObject(obj, new IsoDateTimeConverter { DateTimeFormat = "yyyy-MM-dd HH:mm:ss" });
         }
