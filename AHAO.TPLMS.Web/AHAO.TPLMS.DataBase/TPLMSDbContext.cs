@@ -7,6 +7,7 @@ namespace AHAO.TPLMS.DataBase
     public partial class TPLMSDbContext : DbContext
     {
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Module> Module { get; set; }
 
 
         public TPLMSDbContext(DbContextOptions<TPLMSDbContext> options) : base(options)

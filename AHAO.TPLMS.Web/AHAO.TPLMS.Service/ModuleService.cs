@@ -11,13 +11,11 @@ namespace AHAO.TPLMS.Service
         private IModuleRepository _moduleMgr;
 
         private Module _module;
-        private List<Module> _modules;   //模块列表
-        private IRelationsRepository _relaMgr;
+        private List<Module> _modules;   //模块列表       
 
-        public ModuleService(IModuleRepository userMgr, IRelationsRepository _rela)
+        public ModuleService(IModuleRepository userMgr)
         {
-            _moduleMgr = userMgr;
-            _relaMgr = _rela;
+            _moduleMgr = userMgr;            
         }
     }
 }
