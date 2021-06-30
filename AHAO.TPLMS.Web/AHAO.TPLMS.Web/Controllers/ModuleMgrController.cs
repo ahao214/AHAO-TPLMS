@@ -1,30 +1,30 @@
-﻿using System;
+﻿using AHAO.TPLMS.Service;
+using AHAO.TPLMS.Util.Helpers;
+using Microsoft.AspNetCore.Mvc;
+using AHAO.TPLMS.Entitys;
+using AHAO.TPLMS.Web.Models;
+using Newtonsoft.Json.Serialization;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using AHAO.TPLMS.Service;
-using AHAO.TPLMS.Util.Helpers;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata;
 
-namespace JST.TPLMS.Web.Controllers
+namespace AHAO.TPLMS.Web.Controllers
 {
     public class ModuleMgrController : Controller
     {
         ModuleService moduleSer;
         public ModuleMgrController(ModuleService modu)
-        { moduleSer = modu; }
+        {
+            moduleSer = modu;
+        }
+
+
         // GET: ModuleMgr
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: ModuleMgr/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
         public string List()
         {
             var page = Request.Form["page"].ToString();
@@ -36,50 +36,79 @@ namespace JST.TPLMS.Web.Controllers
             return json;
         }
 
-        // GET: ModuleMgr/Create
-        public ActionResult Create()
+        public ActionResult Update(Module u)
         {
-            return View();
-        }
-
-        // POST: ModuleMgr/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
+            string result = "NO";
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction(nameof(Index));
+                //TODO:Add update logic here 
+                result = moduleSer.Save(u);
             }
             catch
             {
-                return View();
             }
+            return Content(result);
         }
 
-        // GET: ModuleMgr/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Add(Module u)
         {
-            return View();
-        }
-
-        // POST: ModuleMgr/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
+            string result = "NO";
             try
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction(nameof(Index));
+                result = moduleSer.Add(u);
             }
             catch
             {
-                return View();
+
             }
+            return Content(result);
+        }
+
+        public ActionResult Delete(string ids)
+        {
+            string result = "NO";
+            try
+            {
+                result = moduleSer.Delete(ids);
+            }
+            catch { }
+            return Content(result);
+        }
+
+        public string GetJsonTree()
+        {
+            List<ModuleJson> lst = LinqJsonTree(0);
+            lst.Insert(0, new ModuleJson()
+            {
+                id = 0,
+                children = null,
+                ParentId = 0,
+                text = "根结点"
+            });
+            return JsonHelper.Instance.Serialize(lst);
+        }
+
+        /// <summary>
+        /// 递归
+        /// </summary>
+        /// <param name="paretnId"></param>
+        /// <returns></returns>
+        private List<ModuleJson> LinqJsonTree(int paretnId)
+        {
+            List<Module> lst = moduleSer.GetModules(1, 100).Where(m => m.ParentId == paretnId).ToList();
+            List<ModuleJson> jsonData = new List<ModuleJson>();
+            lst.ForEach(item =>
+             {
+                 jsonData.Add(new ModuleJson
+                 {
+                     id = item.Id,
+                     children = LinqJsonTree(item.Id),
+                     ParentId = item.ParentId,
+                     text = item.Name
+                 });
+             });
+
+            return jsonData;
         }
 
     }

@@ -41,12 +41,12 @@ namespace AHAO.TPLMS.Service
         }
 
 
-        public List <Module> GetModules (int pageindex,int pagesize)
+        public List<Module> GetModules(int pageindex, int pagesize)
         {
             //查询模块表
             var users = _moduleMgr.LoadModules(1, 100);
             List<Module> lst = new List<Module>();
-            foreach(var item in users )
+            foreach (var item in users)
             {
                 lst.Add(item);
             }
@@ -61,33 +61,33 @@ namespace AHAO.TPLMS.Service
                 //修改模块信息
                 _moduleMgr.Update(m);
             }
-            catch ( Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
             return "OK";
         }
 
-        public string Add (Module m )
+        public string Add(Module m)
         {
             try
             {
                 //添加模块信息
                 _moduleMgr.Add(m);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
             return "OK";
         }
 
-        public string Delete (Module m )
+        public string Delete(string ids)
         {
             try
             {
                 //删除模块信息
-                _moduleMgr.Delete(m);
+                _moduleMgr.Delete(ids);
             }
             catch (Exception ex)
             {
